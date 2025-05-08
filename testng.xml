@@ -6,12 +6,12 @@
       <class name="VenkataRamanapandi.Tests.SubmitOrder"/>
     </classes>
   </test>
-  <test thread-count="5" name="Error">
+  <test thread-count="5" name="ErrorHandling">
     <classes>
       <class name="VenkataRamanapandi.Tests.ErrorHandling"/>
     </classes>
   </test>
-   <test thread-count="5" name="Error">
+   <test thread-count="5" name="CucumberTests">
     <classes>
       <class name="Cucumber.TestNGRunner"/>
     </classes>
