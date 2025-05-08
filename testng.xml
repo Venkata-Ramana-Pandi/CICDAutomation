@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Order">
+    <classes>
+      <class name="VenkataRamanapandi.Tests.SubmitOrder"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="Error">
+    <classes>
+      <class name="VenkataRamanapandi.Tests.ErrorHandling"/>
+    </classes>
+  </test>
+   <test thread-count="5" name="Error">
+    <classes>
+      <class name="Cucumber.TestNGRunner"/>
+    </classes>
+  </test>
+</suite> 
